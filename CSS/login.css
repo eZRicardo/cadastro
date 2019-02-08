@@ -1,0 +1,62 @@
+
+@media only screen and (min-width: 0px){
+    .box{
+        display: flex; 
+        justify-content: center;/*Ajusta linha*/
+        align-items: center; /*Ajusta Coluna*/
+        margin-top: 40%;
+        width: 100%;
+        height: 100%;/*Altura máxima da tela*/
+        border-radius: 15px;/*Arredondar*/
+    }
+    .cadastro{
+        background-color: blue;
+        border-radius: 10px;
+        height: 80%;
+        width: 70%;
+        display: flex;
+        flex-direction: column;/* Inverte*/
+        justify-content: center;/*Ajusta coluna*/
+        align-items: center; /*Ajusta linha*/
+     }
+     .cadastro input{
+        border-radius: 10px;
+    }
+    .cadastro [type = "button"]{
+        height: 50px;
+    }
+    .distanceButton{
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+@media only screen and (min-width: 900px){
+    .box{
+        display: flex; 
+        justify-content: center;/*Ajusta linha*/
+        align-items: center; /*Ajusta Coluna*/
+        border-radius: 15px;/*Arredondar*/
+        margin-top: 10%;
+        width: 100%;
+    }
+    .cadastro{
+       background-color: blue;
+       border-radius: 10px;
+       height: 40%;
+       width: 50%;
+       display: flex;
+       flex-direction: column;/* Inverte*/
+       justify-content: center;/*Ajusta coluna*/
+       align-items: center; /*Ajusta linha*/
+    }
+    .cadastro input{
+        border-radius: 10px;
+    }
+    .distanceButton{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
