@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
     <link rel="stylesheet" href="../CSS/login.css">
 </head>
+
 <body>
     <div class="box">
-    <div class="cadastro">
-        <form>
-            Nome:
-            <p><input type="text" name="nome" placeholder="Nome sem acento"></p>
-            Senha:
-            <p><input type="password" name="senha" placeholder="Senha"></p>
-            CPF:
-            <p><input type="password" name="CPF" placeholder="Seu CPF"></p>
-            <div class="distanceButton">
-            <input type="button" name="Login" value="Logar" >
-            <input type="button" name="Cadastro" value="Cadastrar" >
+        <div class="login">
+            <form method="GET" action="loginaction.php">
+                CPF:
+                <p>
+                    <input type="number" name="cpf" placeholder="Seu CPF:">
+                </p>
+                Senha:
+                <p>
+                    <input type="password" name="senha" placeholder="Senha:">
+                </p>
+                <div class="distanceButton">
+                    <input type="submit" name="login" value="Logar">
+                   <a href="../HTML/cadastro.html"> <input type="button" name="cadastro" value="Cadastrar"></a>
+                </div>
+            </form>
         </div>
-        </form> 
     </div>
-</div>
 </body>
+
 </html>

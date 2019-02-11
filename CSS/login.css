@@ -40,7 +40,7 @@
         margin-top: 10%;
         width: 100%;
     }
-    .cadastro{
+    .login{
        background-color: blue;
        border-radius: 10px;
        height: 40%;
@@ -50,7 +50,7 @@
        justify-content: center;/*Ajusta coluna*/
        align-items: center; /*Ajusta linha*/
     }
-    .cadastro input{
+    .login input{
         border-radius: 10px;
     }
     .distanceButton{
