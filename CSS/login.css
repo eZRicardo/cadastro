@@ -10,17 +10,30 @@
         border-radius: 15px;/*Arredondar*/
     }
     .cadastro{
-        background-color: blue;
+        border: solid black 1px;
+        background-color: rgb(1, 180, 135);
+        box-shadow: 1px 5px 8px #4a4a4b;
         border-radius: 10px;
         height: 80%;
-        width: 70%;
+        width: 30%;
         display: flex;
         flex-direction: column;/* Inverte*/
         justify-content: center;/*Ajusta coluna*/
         align-items: center; /*Ajusta linha*/
      }
+     .button:hover{
+
+        background-color: #98e6d6;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        cursor: pointer;
+    
+      }
      .cadastro input{
         border-radius: 10px;
+        box-shadow: 1px 5px 8px #4a4a4b;
     }
     .cadastro [type = "button"]{
         height: 50px;
@@ -29,6 +42,25 @@
         display: flex;
         justify-content: space-around;
     }
+    .login{
+        border: solid black 1px;
+        background-color: rgb(1, 180, 135);
+        box-shadow: 1px 5px 8px #4a4a4b;
+        border-radius: 10px;
+        height: 80%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;/* Inverte*/
+        justify-content: center;/*Ajusta coluna*/
+        align-items: center; /*Ajusta linha*/
+     }
+     .login input{
+        border-radius: 10px;
+        box-shadow: 1px 5px 8px #4a4a4b;
+    }
+    .login [type = "button"]{
+        height: 50px;
+    }
 
 }
 @media only screen and (min-width: 900px){
@@ -36,27 +68,64 @@
         display: flex; 
         justify-content: center;/*Ajusta linha*/
         align-items: center; /*Ajusta Coluna*/
-        border-radius: 15px;/*Arredondar*/
         margin-top: 10%;
         width: 100%;
+        height: 100%;/*Altura máxima da tela*/
+        border-radius: 15px;/*Arredondar*/
     }
-    .login{
-       background-color: blue;
-       border-radius: 10px;
-       height: 40%;
-       width: 50%;
-       display: flex;
-       flex-direction: column;/* Inverte*/
-       justify-content: center;/*Ajusta coluna*/
-       align-items: center; /*Ajusta linha*/
-    }
-    .login input{
+    .cadastro{
+        border: solid black 1px;
+        background-color: rgb(1, 180, 135);
+        box-shadow: 1px 5px 8px #4a4a4b;
         border-radius: 10px;
+        height: 80%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;/* Inverte*/
+        justify-content: center;/*Ajusta coluna*/
+        align-items: center; /*Ajusta linha*/
+     }
+     .button:hover{
+
+        background-color: #98e6d6;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 32px;
+        padding-right: 32px;
+        cursor: pointer;
+    
+      }
+     .cadastro input{
+        border-radius: 10px;
+        box-shadow: 1px 5px 8px #4a4a4b;
+    }
+    .cadastro [type = "button"]{
+        height: 50px;
     }
     .distanceButton{
         display: flex;
         justify-content: space-around;
     }
+    .login{
+        border: solid black 1px;
+        background-color: rgb(1, 180, 135);
+        box-shadow: 1px 5px 8px #4a4a4b;
+        border-radius: 10px;
+        height: 80%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;/* Inverte*/
+        justify-content: center;/*Ajusta coluna*/
+        align-items: center; /*Ajusta linha*/
+     }
+     .login input{
+        border-radius: 10px;
+        box-shadow: 1px 5px 8px #4a4a4b;
+    }
+    .login [type = "button"]{
+        height: 50px;
+    }
+
 }
 
 
